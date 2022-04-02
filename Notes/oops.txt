@@ -1,0 +1,23 @@
+new Keyword ---> dynamically allocates memory at runtime
+
+All class objects in java allocate dynamically at runtime
+
+
+Dynamic memory allocation
+
+Stack and Heap Memory
+
+------------------------
+    Student s1; ---> Compile time
+    s1=new Student() -->runtime
+
+------------
+    new Keyword ---> dynamically allocates memory at runtime
+    Student()-->Constructor
+    s1-->refernence variable
+    Student--> classes // user defined data type
+
+
+
+
+
