@@ -18,6 +18,12 @@ Stack and Heap Memory
     Student--> classes // user defined data type
 
 
+Constructor is a special function
+return type is not required Constructor
 
+Constructor Overloading
+
+
+Static Method can Access only access static data (not access non static data)
 
 
