@@ -1,8 +1,9 @@
-package com.sagar.JavaSyntax;
+package com.sagar.java.syntax;
 
-public class Main {
+public class TwoMainFunction {
 
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         System.out.println("hi");
     }
 
@@ -10,7 +11,8 @@ public class Main {
         System.out.println("one argument");
     }
 
-    public static void main(String arg1,String arg2) {
+    public static void main(String arg1,String arg2)
+    {
         System.out.println("two argument");
     }
 }

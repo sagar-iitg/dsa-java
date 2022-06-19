@@ -1,4 +1,4 @@
-package com.sagar.JavaSyntax;
+package com.sagar.java.syntax;
 
 import java.util.ArrayList;
 

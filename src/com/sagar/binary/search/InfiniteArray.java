@@ -1,4 +1,4 @@
-package com.sagar.BinarySearch;
+package com.sagar.binary.search;
 
 public class InfiniteArray {
 

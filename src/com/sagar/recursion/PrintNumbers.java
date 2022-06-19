@@ -1,4 +1,4 @@
-package com.sagar.Recursion;
+package com.sagar.recursion;
 
 public class PrintNumbers {
 
