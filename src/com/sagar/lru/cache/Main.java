@@ -114,7 +114,7 @@ public class Main {
         }
     }
 
-    public static void main(String[] args) throws IOException, Exception{
+    public static void main(String[] args){
 
 
         LRU obj=new LRU(3);
