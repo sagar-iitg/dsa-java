@@ -25,7 +25,7 @@ public class SinglyLinkedList {
        // System.out.println(head);
         SinglyLinkedList llist=new SinglyLinkedList();
         llist.head=new Node(1);
-        System.out.println(head);
+        //System.out.println(head);
 
     }
 }
