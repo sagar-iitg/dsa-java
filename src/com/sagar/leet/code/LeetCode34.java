@@ -7,8 +7,8 @@ public class LeetCode34 {
     public static void main(String[] args)
     {
 
-            int[] arr={1,2,7,7,7,7,7,7,7,10};
-            int target=7;
+            int[] arr={1,2,100,100};
+            int target=100;
             int firstIndex= firstIndexBinarySearch(arr,target);
             System.out.println(firstIndex);
             int lastIndex=lastIndexBinarySearch(arr,target);
@@ -20,6 +20,7 @@ public class LeetCode34 {
     private static int lastIndexBinarySearch(int[] arr, int target) {
 
 
+        int ans=-1;
         int start=0;
         int end=arr.length-1;
 
@@ -32,6 +33,7 @@ public class LeetCode34 {
 
             if(arr[mid]==target)
             {
+                ans=mid;
                 start=mid+1;
 
             }
@@ -41,16 +43,19 @@ public class LeetCode34 {
             }
             else if(arr[mid]<target)
             {
+
                 start=mid+1;
 
             }
 
         }
-        return end;
+        return ans;
     }
 
     private static int firstIndexBinarySearch(int[] arr, int target) {
 
+
+        int ans=-1;
         int start=0;
         int end=arr.length-1;
 
@@ -63,6 +68,7 @@ public class LeetCode34 {
 
             if(arr[mid]==target)
             {
+                ans=mid;
                 end=mid-1;
 
             }
@@ -72,12 +78,13 @@ public class LeetCode34 {
             }
             else if(arr[mid]<target)
             {
+
                 start=mid+1;
 
             }
 
         }
-        return start;
+        return ans;
     }
 
 
