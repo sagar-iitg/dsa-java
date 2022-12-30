@@ -24,7 +24,7 @@ public class LeetCode852 {
 
             if(arr[mid]>arr[mid+1])
             {
-                end=mid;
+                end =mid;
             }
             else if(arr[mid]<arr[mid+1]){
                 start=mid+1;
