@@ -1,4 +1,4 @@
-package com.sagar.pattern;
+package com.sagar.design.pattern;
 
 public class NotificationFactory {
 	public Notification createNotification(String channel)

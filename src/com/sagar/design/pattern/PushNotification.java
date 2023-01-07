@@ -1,4 +1,4 @@
-package com.sagar.pattern;
+package com.sagar.design.pattern;
 
 public class PushNotification implements Notification {
 
