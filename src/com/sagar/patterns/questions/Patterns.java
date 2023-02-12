@@ -7,7 +7,24 @@ public class Patterns {
     {
 
         //pattern2(4);
-        pattern4(5);
+        pattern5(5);
+
+    }
+
+
+    private static void pattern5(int n)
+    {
+        for(int row=1;row<=n;row++)
+        {
+            //for every row run the cols
+            for(int col=1;col<=n-row+1;col++)
+            {
+                System.out.print("* ");
+            }
+            System.out.println();
+
+
+        }
 
     }
 
