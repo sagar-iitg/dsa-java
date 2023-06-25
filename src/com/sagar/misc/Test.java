@@ -10,6 +10,7 @@ public class Test
         String  s1 = "dog cat cat dog";
         System.out.println(s.length());
         System.out.println(s1.split(" ").length);
+        System.out.println(32>>4);
 
     }
 
