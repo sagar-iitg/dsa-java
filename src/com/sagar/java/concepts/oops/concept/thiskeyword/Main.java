@@ -1,9 +1,6 @@
 package com.sagar.java.concepts.oops.concept.thiskeyword;
 
 
-
-
-
 public class Main {
 
     public static void main(String[] args) {
