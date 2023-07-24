@@ -26,8 +26,13 @@ public class MaximumSumSubArray {
             }
             else if(end-start+1==k)
             {
+
+                //calculation
                 max=Math.max(sum,max);
                 sum=sum-arr[start];
+
+                //slide the window
+
                 start++;
                 end++;
 
