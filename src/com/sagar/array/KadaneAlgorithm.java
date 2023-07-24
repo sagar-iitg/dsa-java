@@ -14,11 +14,11 @@ public class KadaneAlgorithm {
         int curr_sum=0;
         int max_sum=0;
 
-        for(int i=0;i<a.length;i++){
-            curr_sum=curr_sum+a[i];
-            max_sum=Math.max(max_sum,curr_sum);
-            if(curr_sum<0)
-                curr_sum=0;
+        for (int j : a) {
+            curr_sum = curr_sum + j;
+            max_sum = Math.max(max_sum, curr_sum);
+            if (curr_sum < 0)
+                curr_sum = 0;
         }
         return max_sum;
     }
