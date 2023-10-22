@@ -1,5 +1,8 @@
 package com.sagar.array;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+
 public class CharactertoInteger {
 
     public static void main(String[] args) {
