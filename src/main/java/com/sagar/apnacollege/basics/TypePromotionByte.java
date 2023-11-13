@@ -1,4 +1,4 @@
-package basics;
+package com.sagar.apnacollege.basics;
 
 class TypePromotionByte {
 
