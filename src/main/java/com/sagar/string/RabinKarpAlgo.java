@@ -4,10 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class RabinKarpAlgo {
-   public static List<Integer> rabinKarp(String s, String t) {
+   public static List<Integer> rabinKarp(String text, String pattern) {
         final int p = 31;
         final int m = (int) 1e9 + 9;
-        int S = s.length(), T = t.length();
+        int S = text.length(), T = pattern.length();
 
         List<Long> pPow = new ArrayList<>(Math.max(S, T));
         pPow.add(1L);
@@ -17,10 +17,10 @@ public class RabinKarpAlgo {
         List<Long> h = new ArrayList<>(T + 1);
         h.add(0L);
         for (int i = 0; i < T; i++)
-            h.add((h.get(i) + (t.charAt(i) - 'a' + 1) * pPow.get(i)) % m);
+            h.add((h.get(i) + (pattern.charAt(i) - 'a' + 1) * pPow.get(i)) % m);
         long hS = 0;
         for (int i = 0; i < S; i++)
-            hS = (hS + (s.charAt(i) - 'a' + 1) * pPow.get(i)) % m;
+            hS = (hS + (text.charAt(i) - 'a' + 1) * pPow.get(i)) % m;
 
         List<Integer> occurrences = new ArrayList<>();
         for (int i = 0; i + S - 1 < T; i++) {
