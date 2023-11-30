@@ -6,5 +6,6 @@ public class Main {
         String str="abc";
         System.out.println(str+str);
 
+
     }
 }
