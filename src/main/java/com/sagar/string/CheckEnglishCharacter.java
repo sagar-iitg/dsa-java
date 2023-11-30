@@ -5,11 +5,11 @@ public class CheckEnglishCharacter {
 
     public static void main(String[] args) {
 
-        String s="abc-";
+        String s="abc-A$1";
         for(char ch:s.toCharArray())
         {
             boolean ans=checkEnglishCharcater(ch);
-            System.out.println(ans);
+            System.out.println(ans+" "+ ch);
 
         }
 
