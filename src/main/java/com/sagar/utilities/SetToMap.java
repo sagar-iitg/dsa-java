@@ -18,6 +18,7 @@ public class SetToMap {
         System.out.println(set);
         Integer[] emptyArray = new Integer[0];
         System.out.println(Arrays.toString(emptyArray));
+
         Integer[] array = set.toArray(emptyArray);
         System.out.println(Arrays.toString(array));
         System.out.println(Arrays.toString(set.toArray(new Integer[10])));
