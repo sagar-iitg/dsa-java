@@ -2,6 +2,7 @@ package com.sagar.utilities;
 
 import java.util.Arrays;
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.Set;
 
 public class SetToMap {
@@ -14,6 +15,19 @@ public class SetToMap {
         set.add(3);
         set.add(1);
         set.add(2);
+
+        Iterator<Integer> itr=set.iterator();
+
+        while(itr.hasNext())
+        {
+            System.out.println(itr.next());
+        }
+
+
+        for(Integer i:set)
+        {
+            System.out.println(i);
+        }
 
         System.out.println(set);
         Integer[] emptyArray = new Integer[0];
