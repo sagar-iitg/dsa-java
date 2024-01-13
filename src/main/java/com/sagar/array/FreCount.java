@@ -8,8 +8,6 @@ public class FreCount {
 
         String s="abcab";
         int[] count=new int[26];
-
-
         for(int i=0;i<s.length();i++){
 
             count[s.charAt(i)-'a']++;
