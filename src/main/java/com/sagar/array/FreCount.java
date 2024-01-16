@@ -5,8 +5,9 @@ import java.util.Arrays;
 public class FreCount {
     public static void main(String[] args) {
 
-    
+
         String s="! abcab ";
+
         int[] count=new int[128];
         for(int i=0;i<s.length();i++){
 
