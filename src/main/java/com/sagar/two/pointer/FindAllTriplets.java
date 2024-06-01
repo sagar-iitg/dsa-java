@@ -7,13 +7,16 @@ public class FindAllTriplets {
 
     public static void main(String[] args) {
 
-        int[] arr={-1,2,1,-4,5};
+        int[] arr={2,3,1,6,8,7};
         int target=1;
+        int c=0;
         List<Integer> sum=new ArrayList<>();
         for (int i=0; i<arr.length;i++) {
             for(int j=i+1;j<arr.length;j++){
                 for(int k=j+1;k<arr.length;k++){
+                    System.out.println(arr[i]+" "+arr[j]+" "+arr[k]);
                     sum.add(arr[i]+arr[j]+arr[k]);
+                    c++;
                 }
             }
         }
@@ -28,5 +31,6 @@ public class FindAllTriplets {
             }
         }
         System.out.println(updatedSum);
+        System.out.println(c);
     }
 }
