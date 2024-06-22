@@ -1,10 +1,7 @@
 package com.sagar.array.pair.example;
 
 
-
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
 
 class Pair{
     int first;
@@ -25,6 +22,8 @@ class Pair{
 
 
 }
+
+
 public class Solution {
 
     public static void main(String[] args) {
