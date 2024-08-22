@@ -2,11 +2,16 @@ package com.sagar.epam.practice1;
 
 import java.util.List;
 
-public class MaximumProductThreeElement {
+public class MaximumProductThree {
 
     public static void main(String[] args) {
-        int[] arr={-1,-2,35,30,70,9,45,0,-10,-8};
+        int[] arr={-10,-10,5,2};
+        MaximumProductThree obj=new MaximumProductThree();
+        int ans=obj.maxProductOfThree(arr);
+        System.out.println(ans);
+    }
 
+    public  int maxProductOfThree(int[] arr){
         int max1=Integer.MIN_VALUE;
         int max2=Integer.MIN_VALUE;
         int max3=Integer.MIN_VALUE;
@@ -37,10 +42,10 @@ public class MaximumProductThreeElement {
                 min2=ele;
             }
         }
-        System.out.println(List.of(max1,max2,max3,min1,min2));
-        System.out.println(max1*max2*max3);
-        System.out.println(min1*min2);
-
+       System.out.println(List.of(max1,max2,max3,min1,min2));
+        int product1 = max1 * max2 * max3; // Product of three largest numbers
+        int product2 = min1 * min2 * max1; // Product of two smallest numbers and largest number
+        return Math.max(product1, product2);
 
     }
 }
