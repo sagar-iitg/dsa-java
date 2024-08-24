@@ -1,6 +1,5 @@
-package com.sagar.epam.practice1;
+package com.sagar.interviews.practice1;
 
-import java.util.List;
 import java.util.PriorityQueue;
 
 public class MaximumProductThree1{
