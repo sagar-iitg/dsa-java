@@ -1,6 +1,7 @@
 package com.sagar.leet.code;
 
 import java.util.ArrayDeque;
+import java.util.Arrays;
 import java.util.Deque;
 import java.util.HashMap;
 
@@ -51,7 +52,9 @@ public class LeetCode1209 {
                    }
 
                }
+            System.out.println(Arrays.deepToString());
         }
+
         System.out.println(stack);
         // Build the result string from the stack
         StringBuilder result = new StringBuilder();
