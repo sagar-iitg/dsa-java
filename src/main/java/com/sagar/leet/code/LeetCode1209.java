@@ -52,7 +52,7 @@ public class LeetCode1209 {
                    }
 
                }
-            System.out.println(Arrays.deepToString());
+            //System.out.println(Arrays.deepToString());
         }
 
         System.out.println(stack);
