@@ -46,21 +46,21 @@ public class MinHeap {
 
             int left=2*index+1;
             int right=2*index+2;
-            int largest=index;
+            int smallest=index;
 
-            if(left<size && arr[largest]>arr[left]){
-                largest=left;
+            if(left<size && arr[smallest]>arr[left]){
+                smallest=left;
             }
 
-            if(right<size && arr[largest]>arr[right]){
-               largest=right;
+            if(right<size && arr[smallest]>arr[right]){
+               smallest=right;
             }
 
-            if(largest==index){
+            if(smallest==index){
                 return;
             }else{
-                swap(arr,largest,index);
-                index=largest;
+                swap(arr,smallest,index);
+                index=smallest;
             }
 
 
