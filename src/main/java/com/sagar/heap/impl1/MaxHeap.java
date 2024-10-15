@@ -38,15 +38,16 @@ public class MaxHeap {
         int index=0;
         arr[index]=arr[size-1];
         size--;
-        int largest=index;
-        int left=2*index+1;
-        int right=2*index+2;
+
 
         while (index<size){
-            if(arr[largest] < arr[left]){
+            int largest=index;
+            int left=2*index+1;
+            int right=2*index+2;
+            if(left<size && arr[largest] < arr[left]){
                 largest=left;
             }
-            if(arr[largest]<arr[right]){
+            if(right<size && arr[largest]<arr[right]){
                 largest=right;
             }
             if(index==largest) break;
