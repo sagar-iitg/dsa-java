@@ -5,6 +5,7 @@ public class Main {
     public static void main(String[] args) throws Exception {
 
         Heap<Integer> heap=new Heap<>();
+
         heap.insert(34);
         heap.insert(33);
         heap.insert(45);
