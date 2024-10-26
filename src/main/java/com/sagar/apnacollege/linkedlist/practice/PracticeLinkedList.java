@@ -1,4 +1,4 @@
-package linkedlist.practice;
+package com.sagar.apnacollege.linkedlist.practice;
 
 public class PracticeLinkedList {
 

@@ -1,4 +1,4 @@
-package methods;
+package com.sagar.apnacollege.methods;
 
 public class DecimalToHexa {
 

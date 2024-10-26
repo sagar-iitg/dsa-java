@@ -1,4 +1,4 @@
-package code;
+package com.sagar.apnacollege.code;
 
 public class P1 {
 

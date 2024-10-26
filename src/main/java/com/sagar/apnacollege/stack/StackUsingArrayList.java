@@ -1,4 +1,4 @@
-package stack;
+package com.sagar.apnacollege.stack;
 
 import java.util.ArrayList;
 

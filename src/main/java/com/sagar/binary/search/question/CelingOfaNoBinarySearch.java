@@ -18,10 +18,6 @@ greatest element in array less or equal to target element.
 
  */
 
-
-
-import javax.xml.transform.stax.StAXResult;
-
 public class CelingOfaNoBinarySearch {
 
 

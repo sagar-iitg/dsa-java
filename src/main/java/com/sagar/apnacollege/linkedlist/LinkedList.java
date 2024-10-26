@@ -1,4 +1,4 @@
-package linkedlist;
+package com.sagar.apnacollege.linkedlist;
 
 public class LinkedList{
 

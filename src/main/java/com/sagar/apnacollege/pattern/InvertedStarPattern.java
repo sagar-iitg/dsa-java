@@ -1,4 +1,4 @@
-package pattern;
+package com.sagar.apnacollege.pattern;
 
 public class InvertedStarPattern {
 

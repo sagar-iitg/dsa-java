@@ -1,4 +1,6 @@
-package linkedlist;
+package com.sagar.apnacollege.linkedlist;
+
+import java.util.LinkedList;
 
 public class ClientLinkedList {
 
@@ -18,8 +20,8 @@ public class ClientLinkedList {
           ll.addLast(2);
           ll.addLast(3);
 
-        ll.print();
-        System.out.println(ll.recSearch(-1));
+        //ll.print();
+        //System.out.println(ll.recSearch(-1));
         //System.out.println(ll.checkPalindrome());
       
         //ll.print();
