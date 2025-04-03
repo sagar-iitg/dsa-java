@@ -9,6 +9,7 @@ public class Anagram {
 
         boolean isAnagram = isAnagram(s, t);
         System.out.println(isAnagram);
+        System.out.println(new int[0]);
 
     }
 
